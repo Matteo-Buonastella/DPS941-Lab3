@@ -16,7 +16,5 @@ of it. The robot would need to detect this object and then move around it.
 
 d) Should the dynamic objects be present when mapping an arena?
 
-- Dynamic objects should be present when mapping an arena 
-
-as it will not have a specific location. Your robot should instead be equipped with the ability to react
+- Dynamic objects should not be present when mapping an arena as it will not have a specific location. Your robot should instead be equipped with the ability to react
 in a specific way if it detects a dynamic object.  
