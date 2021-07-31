@@ -3,7 +3,7 @@ Link to Video (Sensor map didn't load properly so robot navigates to a different
 
 **a) What is autonomous navigation in mobile robotics?**
 
-Autonomous navigation is the ability of a robot to traverse an area/map on it's own. 
+Autonomous navigation is the ability of a robot to traverse an area/map without human intervention.  
 
 **b)What parameters does the robot navigation algorithm consider when planning a path?**
 
