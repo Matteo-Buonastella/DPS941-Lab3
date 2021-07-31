@@ -1,20 +1,22 @@
-a) What is mapping in autonomous robotics?
+Link to Video (Sensor map didn't load properly so robot navigates to a different location): https://web.microsoftstream.com/video/a8b1b691-339c-4451-8194-934e04d247d1?list=studio
 
-- Maps are a model for the environment needed by the autonomous robot. Mapping is the problem of integrating the information gathered with the robot's sensors into a given
-  representation. 
 
-b) How important is the map’s accuracy for the robot’s autonomous navigation task?
+a) What is autonomous navigation in mobile robotics?
 
-- An accurate map is very important for the robot's autonomous navigation task as it will use the map in order to determine the optimal course of action in order to get
-from point A to point B. 
+Autonomous navigation is the ability of a robot to traverse an area/map on it's own. 
 
-c) What are dynamic objects in autonomous robotics? Either explain or provide some examples.
+b)What parameters does the robot navigation algorithm consider when planning a path?
 
-- Dynamic objects are things/obstacles in the environment that doesn't have a set location and so the robot will have to know how to react if it encounters it. 
-For example, if you have a an autonomous robot that is cleaning a house, it will need to interact and consider dynamic objects like a cat that moves right in front 
-of it. The robot would need to detect this object and then move around it.
+Parameters such as the velocity of the robot, velocity of rotation, inflation radius, cost scaling factor and sim_time. 
 
-d) Should the dynamic objects be present when mapping an arena?
+c) What is a cost map (in the context of autonomous navigation)?
 
-- Dynamic objects should not be present when mapping an arena as it will not have a specific location. Your robot should instead be equipped with the ability to react
-in a specific way if it detects a dynamic object.  
+A cost map represents the difficulty for a robot to travers the different areas of a map. 
+
+d) What is inflation radius (in the context of autonomous navigation)?
+
+Inflation radius is a set radius around an object that cannot be crossed by the robot. 
+
+e) Which navigation parameters did you tune using the document in the link below?
+
+The parameters I edited were the max_vel_x to 0.8 and min_vel_x: to -0.8. This increased the speed of the robot and by having the min_vel_x less than 0, it allowed the robot to move backwards. I also changed the inflation_radius to 0.2. Inflation radius controls how close or far your robot will get to an object. 
