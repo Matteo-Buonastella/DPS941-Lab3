@@ -1,7 +1,7 @@
 Link to Video (Sensor map didn't load properly so robot navigates to a different location): https://web.microsoftstream.com/video/a8b1b691-339c-4451-8194-934e04d247d1?list=studio
 
 
-a) What is autonomous navigation in mobile robotics?
+**a) What is autonomous navigation in mobile robotics?
 
 Autonomous navigation is the ability of a robot to traverse an area/map on it's own. 
 
